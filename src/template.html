@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
   <head>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-1CVHF003PQ"></script>
@@ -30,7 +30,7 @@
     <div id="top"></div>
 
     <!-- **** Hero Section **** -->
-    <div id="hero" class="jumbotron">
+    <!-- <div id="hero" class="jumbotron">
       <div class="container">
         <h1 class="hero-title" class="load-hidden">
           Hi, my name is <span class="text-color-main">Kentaro Kawamura</span>
@@ -41,7 +41,7 @@
           <a class="cta-btn cta-btn--hero" href="#about">Know more</a>
         </p>
       </div>
-    </div>
+    </div> -->
     <!-- /END Hero Section -->
 
     <!-- **** About Section **** -->
@@ -65,19 +65,28 @@
           <div class="col-md-6 col-sm-12">
             <div class="about-wrapper__info">
               <p class="about-wrapper__info-text">
-                Hi, My name is Kentaro Kawamura.<br>
+                はじめまして！河村　健太朗と申します。<br>
+                私は現在北海道札幌市在住で、年齢は37歳です。
+                1浪しているので23歳で大学を卒業し、33歳までは飲食店、それからはコールセンターで働きました。
               </p>
               <p class="about-wrapper__info-text">
-                大学生時代からHTMLとCSSは触っているので、そこから数えると約18年ほどWeb系に携わっています。<br>
-              当時はサークル用にホームページや掲示板を作ったりしていました。<br>
-              職歴を簡単にまとめると、経理7年→飲食店経営4年→コールセンター3年といったところです。<br>
-              経理の仕事をやりながら、会社のホームページを作ったり、お店のメニューをデザインしたりしていました。<br>
-              このアイコンもIllustratorで作りました。
+                29歳で独立し飲食店を札幌市内に3店舗展開し、年商1億程度の規模のビジネスを行っておりました。
+                しかし、飲食業は構造的に利益率が低く、将来の可能性を感じなかったこと、
+                またスモールビジネスしか経験したことがなかったので、年商100億円以上の大きな企業で働きたいと思い、
+                お店を譲り飲食業からは引退しました。
               </p>
               <p class="about-wrapper__info-text">
-                現在はプログラマー転職に向けて、独学で勉強中です。<br>
-                環境構築はできる限りDockerを利用して、言語はPythonやJavaScriptが中心です。<br>
-                今後はReactの習得を目指しています。
+                コールセンターでは規模の大きなビジネスを経験しましたが、
+                娘が生まれたことをきっかけにリモートワークができる仕事にチェンジしたいと思い、
+                現在プログラミングを独学で勉強し、IT業界に転職活動しています。
+              </p>
+              <p class="about-wrapper__info-text">
+                言語：Javascript, php, python, JAVA<br>
+                フレームワーク: React, Vue, Larabel, Node, Deno<br>
+                ランタイム： Node, Deno<br>
+                データベース： Postgres, MySQL<br>
+                バージョン管理: Git<br>
+                ソフト: Illustrator, Photoshop, Word, Excel, PowerPoint
               </p>
               <!-- <span class="d-flex mt-3">
                 <a target="_blank" class="cta-btn cta-btn--resume" href="#!">
@@ -103,11 +112,43 @@
           <div class="row">
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text">
+                <h3 class="project-wrapper__text-title">CRWN-Clothing</h3>
+                <div>
+                  <p class="mb-4">
+                    Reactで実装したEコマースサイトです。<br>
+                    ログイン機能はFirebaseを使用し、決済機能はStripeで実装しました。<br>
+                    herokuにデプロイしていますが、無料プランなので見れない場合があります。<br>
+                  </p>
+                </div>
+                <a target="_blank" class="cta-btn cta-btn--hero" href="https://crwn-neneta-live.herokuapp.com/">
+                  See Live
+                </a>
+                <a target="_blank" class="cta-btn text-color-main" href="https://github.com/neneta0921/crwn-clothing">
+                  Source Code
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image">
+                <a href="#!" target="_blank">
+                  <div data-tilt class="thumbnail rounded">
+                    <img class="img-fluid" src="./assets/crwn-clothing.png" />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+          <!-- Each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text">
                 <h3 class="project-wrapper__text-title">画像圧縮ツール</h3>
                 <div>
                   <p class="mb-4">
                     ローカル環境で画像ファイルを圧縮できるデスクトップソフトです。<br>
-                    圧縮処理はnpmのライブラリを利用して実装しています。<br>
+                    Electronで実装しています。<br>
                     現在はWindowsにのみ対応しています。<br>
                   </p>
                 </div>
